@@ -1,8 +1,5 @@
 # Asm-Polymorphism
 
-DUGAIN YOHAN
-NARETTO LILIAN
-
 Exécution : python3 generator.py
 
 Pré-requis : Python 3.* et un système 64bits
