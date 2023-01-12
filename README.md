@@ -1,15 +1,33 @@
 # Asm-Polymorphism
 
-Exécution : python3 generator.py
+This project is a Python script for generating a new file from a given assembly file, with a new signature that does not exist in the payload.txt file. The goal of this project is to demonstrate the concept of polymorphism in assembly code.
 
-Pré-requis : Python 3.* et un système 64bits
+## Features
+- Generates a new assembly file from a user-specified input file
+- The new file has a different signature from the original file, as well as from the payload.txt file
+- Demonstrates the concept of polymorphism in assembly code
 
-Le fichier Addition.asm permets de vérifier le bon fonctionnement de notre programme.
+## Getting Started
+To run this project on your local machine, you will need Python 3 installed.
 
-Ce programme génère un nouveau fichier assembleur dont la signature n'existe déjà pas dans le payload.txt.
-Si la signature a déjà été générée, le programme se chargera de générer un nouveau binaire ayant une signature différente de tous les binaires générés précédemment.
+1. Clone the repository to your local machine:
+'''
+git clone https://github.com/Naretto95/Asm-Polymorphism.git
+'''
+2. Run the script:
+'''
+python generator.py
+'''
+3. The program will prompt you for the location of the assembly file to modify, and the location to save the new file.
 
-Le fichier ORIGINAL n'est pas modifié, le fichier assembleur FINAL se trouve dans tmp_gen.asm.
-Le fichier FINAL s'exécute toujours de cette façon ./tmp_gen.bin
+## Usage
+The script will prompt the user for the location of the assembly file to modify and the location to save the new file. Once the input file is selected and read, the script will generate a new signature, and create a new file with the modified code and the new signature.
 
-Lors d'une nouvelle génération, les anciens fichiers temporaires (utilisées pour une ancienne génération) sont supprimés.
+## Contribution
+We are open to contributions and suggestions. If you would like to contribute, please fork the repository and create a pull request with your changes.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+This project uses Python libraries for working with assembly code.
