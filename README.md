@@ -11,13 +11,13 @@ This project is a Python script for generating a new file from a given assembly 
 To run this project on your local machine, you will need Python 3 installed.
 
 1. Clone the repository to your local machine:
-'''
+```
 git clone https://github.com/Naretto95/Asm-Polymorphism.git
-'''
+```
 2. Run the script:
-'''
+```
 python generator.py
-'''
+```
 3. The program will prompt you for the location of the assembly file to modify, and the location to save the new file.
 
 ## Usage
